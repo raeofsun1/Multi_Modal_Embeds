@@ -26,8 +26,7 @@ This repository provides code for fine-tuning tasks on Vision and Language.
   <pre>python -m torch.distributed.run --nproc_per_node=16 train_vqa.py </pre>
   
   
-  
-  ## NLVR2
+## NLVR2
 - Download NLVR2 dataset and update path in config file.
 - Finetune the model on pre downloaded weights using
   <pre>python -m torch.distributed.run --nproc_per_node=16 train_nlvr.py </pre> 
